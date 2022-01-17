@@ -1,60 +1,25 @@
 ---
-title: This is my first post
-description: Capitalize on low hanging fruit to identify a ballpark value added
-  activity to beta test. Override the digital divide with additional
-  clickthroughs from DevOps.
-author: Surjith S M
-date: 2020-09-01
+title: Blank Notes
+description: "Things that I tried "
+author: Stephen Roger Smith
+date: 2022-01-17T03:10:35.956Z
 tags:
   - left
   - center
   - right
 ---
-# This is a Heading h1
+## JAM Stack
 
-## This is a Heading h2
+https://www.youtube.com/watch?v=ySJGjo3_EX4
 
-###### This is a Heading h6
+## Netlify + 11ty
 
-## Emphasis
+https://www.youtube.com/watch?v=Tq1XtMjlR28
 
-*This text will be italic*\
-*This will also be italic*
+## Quick Deploy with Template
 
-**This text will be bold**\
-**This will also be bold**
+https://www.netlifycms.org/docs/start-with-a-template/
 
-*You **can** combine them*
+## New Repo
 
-## Lists
-
-### Unordered
-
-* Item 1
-* Item 2
-
-  * Item 2a
-  * Item 2b
-
-### Ordered
-
-1. Item 1
-2. Item 2
-3. Item 3
-
-   1. Item 3a
-   2. Item 3b
-
-## Links
-
-You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
-
-## Blockquotes
-
-> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
->
-> > Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
-
-## Inline code
-
-This web site is using `markedjs/marked`.
+https://github.com/TheMapSmith/maplog
