@@ -43,4 +43,4 @@ arcpy.management.Mosaic(r"'C:\Users\steph\Documents\Sunken Earth\Sunken\data\GMT
 ```
 
 3. Use ratser calculator 
-   `SetNull("GMTED_2010_Merged.tif" <= 50,"GMTED_2010_Merged.tif")`
+   `SetNull("GMTED_2010_Merged.tif" >= 50,"GMTED_2010_Merged.tif")`
