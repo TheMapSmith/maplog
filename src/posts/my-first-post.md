@@ -45,4 +45,4 @@ arcpy.management.Mosaic(r"'C:\Users\steph\Documents\Sunken Earth\Sunken\data\GMT
 3. Use ratser calculator to extract areas below 50m
    `SetNull("GMTED_2010_Merged.tif" >= 50,"GMTED_2010_Merged.tif")`
 4. Use raster calculator to set all values to `1` 
-` "gmted_2010_50m" == 1 `
+`Con( "gmted_2010_50m" <= 60,1, "gmted_2010_50m")`
