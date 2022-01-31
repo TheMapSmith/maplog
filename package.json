@@ -1,11 +1,12 @@
 {
   "scripts": {
-    "start": "npm-run-all --parallel css eleventy browsersync",
+    "start": "npm-run-all --parallel makemaps css eleventy browsersync",
     "eleventy": "eleventy --watch",
     "debug": "set DEBUG=* & eleventy",
     "css": "postcss src/static/css/tailwind.css --o _site/static/css/style.css --watch",
     "build": "cross-env NODE_ENV=production eleventy && cross-env NODE_ENV=production postcss src/static/css/tailwind.css --o _site/static/css/style.css",
-    "browsersync": "browser-sync start --server '_site' --files '_site' --port 8080 --no-notify --no-open"
+    "browsersync": "browser-sync start --server '_site' --files '_site' --port 8080 --no-notify --no-open",
+    "makemaps": "node makemaps.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
@@ -15,6 +16,7 @@
     "browser-sync": "^2.26.14",
     "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
+    "csv-parser": "^3.0.0",
     "html-minifier": "^4.0.0",
     "js-yaml": "^3.14.0",
     "luxon": "^1.25.0",
